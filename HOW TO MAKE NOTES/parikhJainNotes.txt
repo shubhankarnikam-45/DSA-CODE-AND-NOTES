@@ -1,0 +1,33 @@
+//PRARIK JAIN (HOW TO MAKE NOTES.)
+a. in life we make the DSA NOTES AND WE LEARN DSA IN ONE TIME ONLY one time and afterwards our life is easy.
+    -> in future we learn the MACHINE LEARNING or DEVLOPMENT then this notes are userful.
+    -> for INTERVIEW 'quick revision' we required DSA NOTEs.
+    -> when we switch company then this notes are useful.
+
+b. NOW WE SEE 5 METHODS TO MAKE EFFECTIVE NOTES.
+    1. we requied the PEN AND PAPER and GITHUB.our code is present in GITHUB and THOUGHT PROCESS present at PEN
+       PAPER.
+    2. TYPES OF NOTES.
+        -> CONCEPTUAL NOTES.(detailed notes.)
+        ->PROBLEM SOLVING NOTES.(clean and crisp)
+
+    3. CONCEPTUAL NOTES.(detailed notes.)
+        i. when we read new concept then after some THEORY , DRY THE HARD PROBLEM AND LEARN. (for eamample
+        when we learn RECURSION then see the HARD PROBLEM and DRY RUN code likewise)
+    
+    4. PROBLEM SOLVING NOTES.(clean and crisp)
+        (AFTER SOLVING PROBLEM THEN MOVE TO THE NOTES)
+        i. after solve problem then three important things.
+            ->write down APPROACHES (e.g. DP,RECURSION,etc)
+            ->write down "to the point" TIME AND SPACE COMPLEXITY.
+            -> CORNER CASES(try it for the negative cases, incresing order.): write down the corner cases and
+             if we found the SPECIAL CASE then DRY RUN this for FUTURE.
+            -> UPLOAD ON GITHUB or DRIVE.
+
+    5. MAKE INDEXING FOR NOTES AS WELL AS THE GITHUB CODE.
+    
+            
+
+
+
+    
