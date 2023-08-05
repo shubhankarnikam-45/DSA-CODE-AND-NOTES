@@ -1,0 +1,87 @@
+
+//code to learn
+
+import java.util.HashSet;
+
+public class HashSetExample {
+    public static void main(String[] args) {
+        // Create a HashSet to store integers
+        HashSet<Integer> numberSet = new HashSet<>();
+
+        // Adding elements to the HashSet
+        numberSet.add(5);
+        numberSet.add(10);
+        numberSet.add(15);
+        numberSet.add(20);
+
+        System.out.println("HashSet: " + numberSet); // Output: HashSet: [20, 5, 10, 15] (order may vary)
+
+        // Check if an element exists in the HashSet
+        int elementToCheck = 10;
+        if (numberSet.contains(elementToCheck)) {
+            System.out.println(elementToCheck + " exists in the HashSet.");
+        } else {
+            System.out.println(elementToCheck + " does not exist in the HashSet.");
+        }
+
+        // Remove an element from the HashSet
+        int elementToRemove = 5;
+        if (numberSet.remove(elementToRemove)) {
+            System.out.println(elementToRemove + " removed from the HashSet.");
+        } else {
+            System.out.println(elementToRemove + " does not exist in the HashSet.");
+        }
+
+        System.out.println("HashSet after removal: " + numberSet); // Output: HashSet after removal: [20, 10, 15]
+
+        // Size of the HashSet
+        System.out.println("Size of the HashSet: " + numberSet.size()); // Output: Size of the HashSet: 3
+
+        // Clear the HashSet
+        numberSet.clear();
+        System.out.println("HashSet after clear: " + numberSet); // Output: HashSet after clear: []
+
+        // Check if the HashSet is empty
+        if (numberSet.isEmpty()) {
+            System.out.println("HashSet is empty.");
+        } else {
+            System.out.println("HashSet is not empty.");
+        }
+    }
+}
+
+
+//TC: 
+Sure! Here's the list of functions for a HashSet in Java, along with their respective time complexities:
+
+| Function                               | Description                                                                 | Time Complexity (Average Case) | Time Complexity (Worst Case)  |
+|----------------------------------------|-----------------------------------------------------------------------------|--------------------------------|-------------------------------|
+| `add(E e)`                             | Adds the specified element to the HashSet if it is not already present.     | O(1)                           | O(n) (due to rehashing)       |
+| `remove(Object o)`                     | Removes the specified element from the HashSet if it is present.            | O(1)                           | O(n)                         |
+| `contains(Object o)`                   | Returns true if the HashSet contains the specified element.                 | O(1)                           | O(n)                         |
+| `size()`                               | Returns the number of elements in the HashSet.                              | O(1)                           | O(1)                        |
+| `isEmpty()`                            | Returns true if the HashSet contains no elements.                           | O(1)                           | O(1)                        |
+| `clear()`                              | Removes all elements from the HashSet.                                      | O(1)                           | O(1)                        |
+| `addAll(Collection<? extends E> c)`    | Adds all the elements from the specified collection to the HashSet.         | O(m)                           | O(m)                        |
+| `retainAll(Collection<?> c)`           | Removes all elements from the HashSet that are not present in the collection.| O(n)                           | O(n)                        |
+| `removeAll(Collection<?> c)`           | Removes all elements from the HashSet that are present in the collection.    | O(m)                           | O(m)                        |
+
+Note: In the time complexity column, 'n' represents the number of elements in the HashSet, and 'm' represents the number of elements in the given collection (for functions involving collections). The time complexity for add, remove, and contains assumes an equal distribution of elements in the hash table. The worst-case scenarios arise when hash collisions occur, and rehashing is required, leading to a linear search in the bucket.
+
+
+//SC: 
+Sure! Here's the space complexity for each function in a HashSet:
+
+| Function                               | Description                                                                 | Space Complexity  |
+|----------------------------------------|-----------------------------------------------------------------------------|-------------------|
+| `add(E e)`                             | Adds the specified element to the HashSet.                                  | O(1)              |
+| `remove(Object o)`                     | Removes the specified element from the HashSet.                             | O(1)              |
+| `contains(Object o)`                   | Returns true if the HashSet contains the specified element.                 | O(1)              |
+| `size()`                               | Returns the number of elements in the HashSet.                              | O(1)              |
+| `isEmpty()`                            | Returns true if the HashSet contains no elements.                           | O(1)              |
+| `clear()`                              | Removes all elements from the HashSet.                                      | O(1)              |
+| `addAll(Collection<? extends E> c)`    | Adds all the elements from the specified collection to the HashSet.         | O(m)              |
+| `retainAll(Collection<?> c)`           | Removes all elements from the HashSet that are not present in the collection.| O(n)              |
+| `removeAll(Collection<?> c)`           | Removes all elements from the HashSet that are present in the collection.    | O(m)              |
+
+Note: In the space complexity column, 'n' represents the number of elements in the HashSet, and 'm' represents the number of elements in the given collection (for functions involving collections). The space complexity for most functions is O(1) because they do not require additional memory allocation proportional to the size of the HashSet. The exception is `addAll()` and `retainAll()` functions, where the space complexity depends on the size of the given collection since elements need to be temporarily stored during the operation.
