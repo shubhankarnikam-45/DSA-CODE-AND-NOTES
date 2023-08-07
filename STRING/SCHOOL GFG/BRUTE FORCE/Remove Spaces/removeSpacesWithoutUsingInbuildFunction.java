@@ -1,5 +1,8 @@
 //this code is without using INBUILD FUNCTIONS.
 
+//TC: O(N)
+//SC: O(m) --m==no.of characters in string.
+
  //length of string.
         int n=s.length();
         
