@@ -1,0 +1,12 @@
+//parik jain 
+
+1. focus on one programming language rather multiple language.
+2. not stuck in one data structure or algorithm 
+    see the use case when we move forwar.
+        TREE ==> RECURSION
+        STACK & QUEUE ==> LINKED List
+        GRAPHS ==> STACK & QUEUE
+    
+    * Their is only 20-25 average quetion solved for the each Data structure and algorithm
+    * after completing the 4-5 month then we also solve the dsa quetions.
+    
