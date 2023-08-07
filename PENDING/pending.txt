@@ -1,4 +1,4 @@
 1. HashMap: 
     -> findig TC O(N) and O(logN) differnce.
     ->in worst case the find() method of UNORDERED_MAP take O(N^2) TC o.w it take O(N) TC
-
+    -> regular expression + symbol.
