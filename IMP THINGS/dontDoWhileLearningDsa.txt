@@ -9,4 +9,23 @@
     
     * Their is only 20-25 average quetion solved for the each Data structure and algorithm
     * after completing the 4-5 month then we also solve the dsa quetions.
-    
+
+3. RUSH TO SOLVING PROBLEM
+    * when solving the problem then not give too small time or too much time.
+    * if quetion is not solved then the see the solution and BOOKMAKR FOR REVISON.
+    * when we SOLVE  the prblem now it is time to SEE OTHER SOLUTION. AND LEARN FROM that
+      SOLUTION. 
+    * don't COMPARE with OTHER'S.
+
+4. AFTER LEARING THE DSA FOR 5-6 MONTHS THEN DOT'S LEAVE.
+    * if you leave after learning the you regret after 6 months.
+    * solve RANDOM QUETIONS., participate in CONTEST , 
+
+5. STUCK ON THE ONE RESOURCES.
+    * follow path of one resouces. 
+    * neigther you will be the hamper.
+
+6. DON'T GIVE UP.
+    * now if we ARRIVE IN THE DSA and if we want to become the GOOD SDE then it must.
+      to doing for the 6 months.
+    * OUTPUT IS VERY AMAZING FOCUS ON INPUT

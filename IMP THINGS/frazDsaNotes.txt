@@ -1,0 +1,20 @@
+1. make CLEAN & CRISP notes.
+2. when we UNDERSTANDING  the ALGORITHEM then MEMORIZING is much MORE EASY ==> CODE THIS ALGORITHM.
+3. IN NOTES WE HAVE TO INCLUDE only NEW THING.
+
+4. now their are four important thing to know.
+    a.  CODE: 
+        when you code then must TIME COMPLEXITY, SPACE COMPLEXITY AND COMMENTS.
+    b. COMMENTS:
+        in COMMENTS we must write the IN WHICH KIND WE WRITE THE ALGORITHM , WHICH IS 
+        EXAMPLE WE TAKE, FOR WHAT REASON WE PICK UP THIS DATA STRUCTURE.
+        
+    c. EXAMPLE OF ALGORITHEM: 
+    * after ALGORITHM we must take EXAMPLE for the CODE-FORCE, LEETCODE, CODE-STUDIO
+    * hence we REVISE the ALGORITHM in different way by DOING QUETION WE UNDERSTAND 
+      ALGORITHM. 
+    
+    d. RIVISE ONCE IN MONTH
+
+5. by using this notes we will more CONFIDENT DURING INTERVIEW(try to use before 1-2 days)
+   before INTERVIEW.
