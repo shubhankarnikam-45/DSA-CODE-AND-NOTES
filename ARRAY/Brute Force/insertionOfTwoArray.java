@@ -1,3 +1,5 @@
+//Brute force and Arraylist
+
 class Solution {
     public int[] intersect(int[] arr1, int[] arr2) {
 
