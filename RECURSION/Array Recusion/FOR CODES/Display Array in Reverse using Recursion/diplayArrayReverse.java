@@ -8,13 +8,13 @@
 public static void displayArrReverse(int[] arr, int idx) {
       
       //base case.
-      if(idx==arr.length)
+      if(idx==arr.length)         //1
       {
         return;
       }
       
       //recusive case.s
-      displayArrReverse(arr,idx+1);
-      System.out.println(arr[idx]);
+      displayArrReverse(arr,idx+1);        //2
+      System.out.println(arr[idx]);        //3
 
     }
