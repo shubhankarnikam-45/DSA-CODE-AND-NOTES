@@ -13,13 +13,13 @@
         if(idx==arr.length)
         return -1;
         
-        if(arr[idx]==x)
+        if(arr[idx]==x)           //1
         {
           return idx;
         }
         else
         {
-          int firstIndexInSmallerArray=firstIndex(arr,idx+1,x);
+          int firstIndexInSmallerArray=firstIndex(arr,idx+1,x);      //2
           return firstIndexInSmallerArray;
         }
     }
