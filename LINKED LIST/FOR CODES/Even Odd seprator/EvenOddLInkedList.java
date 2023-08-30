@@ -368,6 +368,7 @@ public class Main {
         even.head=even.head.next;
     }
     
+    //this take tc of O(N ) this is vimp.
      this.head=result.head;
     this.tail=result.tail;
     this.size=result.size();
@@ -384,7 +385,7 @@ public class Main {
 
 
 
-    
+
     
    
   }
