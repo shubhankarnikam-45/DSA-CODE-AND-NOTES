@@ -29,6 +29,7 @@ public class Main {
 
 
 					 //this is when we have equal max and get 
+                     //this is for maintain the 'lexiographical order'
 					 if(max==hm.get(ch))
 					 {
 						 max=hm.get(ch);
