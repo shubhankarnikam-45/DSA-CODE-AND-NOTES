@@ -120,3 +120,44 @@ class Solution {
 
     }
 }
+
+// tc: 
+// Time Complexity Analysis:
+
+// HashMap Initialization (hmap1 and hmap2): O(ss + fs) = O(s), where ss is the length of the second string t and fs is the length of the first string s.
+
+// Loop to Populate hmap2:
+
+// This loop iterates over the characters of the second string t and inserts them into hmap2 with their frequencies. This takes O(ss) time.
+// While Loop:
+
+// The outer while loop runs at most fs times, as it depends on the length of the first string s.
+// First Inner While Loop:
+
+// The first inner while loop iterates until either i reaches the end of the first string (fs-1) or potCount reaches matchCount.
+// In the worst case, it can iterate through the entire string, so it takes O(fs) time.
+// Second Inner While Loop:
+
+// Similar to the first inner while loop, it can also iterate through the entire string. Therefore, it takes O(fs) time.
+// Overall, the time complexity of this code is O(s), where s is the length of the first string s. This is because the dominant factor in terms of time complexity is the length of the first string s.
+
+
+//sc
+// HashMap hmap1:
+
+// It stores the frequency of characters from the first string s.
+// In the worst case, it can store all unique characters from s, so it can take up to O(s) space.
+// HashMap hmap2:
+
+// It stores the frequency of characters from the second string t.
+// In the worst case, it can store all unique characters from t, so it can take up to O(t) space.
+// Integer Variables (fs, ss, i, j, matchCount, potCount):
+
+// These variables are all of type int and they take constant space.
+// String Variable ans:
+
+// It stores the final answer, which is a substring of the first string. In the worst case, it can be as long as the entire string s. Therefore, it can take up to O(s) space.
+// Loop Variables (i, j):
+
+// These are integer variables used for looping and they take constant space.
+// Overall, the space complexity of the code is O(s + t), where s is the length of the first string s and t is the length of the second string t. This is because the dominant factor in terms of space complexity is the sizes of the two input strings s and t.
