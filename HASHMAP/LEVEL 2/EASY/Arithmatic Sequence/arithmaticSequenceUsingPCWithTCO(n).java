@@ -1,4 +1,5 @@
 
+//pending test case is [0,0,1]
 class Solution
 {
     boolean checkIsAP(int arr[] ,int n)
