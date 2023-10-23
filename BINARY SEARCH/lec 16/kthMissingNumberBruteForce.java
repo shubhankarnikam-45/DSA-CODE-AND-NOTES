@@ -1,86 +1,50 @@
-
-//this is burte force solution.
-
-import java.io.*;
-import java.util.*;
-import java.util.*;
+import java.util.Scanner;
 
 class Solution{
-
-	//this function tells the is possible or not.
-	public static boolean isPossible(int arr[],int j,int cows)
-	{
-		//this stores the cows placed.
-		int countOfCows=1;
-
-		//this stores the last position.
-		int last=arr[0];
-
-		//traverse.
-		for(int i=1;i<arr.length;i++)
-			{
-				if(arr[i]-last>=j)
-				{
-					countOfCows++;
-					last=arr[i];
-				}
-
-				if(countOfCows>=cows)
-				{
-					return true;
-				}
-			}
-
-		return false;
-		
-	}
-
-    public static int aggressiveCows(int arr[],int cows){
+    public static int findKthPositive(int[] arr, int k) {
 
 		//length
 		int n=arr.length;
 
-		//sort the array.
-		Arrays.sort(arr);
-
 		//low
-		int low=1;
+		int low=0;
 		//high
-		int high=arr[n-1]-arr[0];
+		int high=n-1;
 
-		//this stores the answer.
-		int ans=-1;
-
-		for(int i=1;i<=high;i++)
+		//binary search.
+		while(low<=high)
 			{
-				if(isPossible(arr,i,cows)==false)
+				//middle value.
+				int mid=(low+(high-low)/2);
+
+				int missing=arr[mid]-(mid+1);
+
+				if(missing<k)
 				{
-					return i-1;
+					low=mid+1;
 				}
-				
+				else
+				{
+					high=mid-1;
+				}
 			}
 
-		//dummy return 
-		return high;
-		
+		//return 
+		return low+k;
 		
     }
-
-
 }
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int size = scanner.nextInt();
 
-class Main {
-        public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int k = sc.nextInt();
-		int[] nums = new int[n];
-		for (int i = 0; i < n; i++)
-		{
-			nums[i] = sc.nextInt();
-		}
-        Solution obj=new Solution();
-		System.out.println(obj.aggressiveCows(nums,k));
-
+        int[] array = new int[size];
+        for (int i = 0; i < size; i++) {
+            array[i] = scanner.nextInt();
+        }
+        int k = scanner.nextInt();
+        System.out.println(Solution.findKthPositive(array, k));
+        scanner.close();
     }
 }
