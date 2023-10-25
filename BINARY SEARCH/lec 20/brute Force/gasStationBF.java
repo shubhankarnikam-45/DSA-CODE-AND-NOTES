@@ -40,7 +40,8 @@ public class Solution {
         for(int i=0;i<n-1;i++)
         {
              //this gives the current  maximum section.
-            double findMax=(arr[i+1]-arr[i])/(howMany[i]+1);
+            double findMax=(double)(arr[i+1]-arr[i])/(double)(howMany[i]+1);
+            
 
             ans=Math.max(findMax,ans);
         }
