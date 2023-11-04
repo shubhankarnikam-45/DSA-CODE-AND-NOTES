@@ -30,6 +30,13 @@ public class Main {
       System.out.println(intToStr);
 
 
+      //check the given character is digit or not.  
+      //to check the given Character is  DIGIT OR NOT.
+      char ch='8';
+      
+      System.out.println(Character.isDigit(ch));
+
+
       
       
       
