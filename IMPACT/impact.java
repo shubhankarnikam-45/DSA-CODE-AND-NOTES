@@ -34,9 +34,15 @@ public class Main {
       //to check the given Character is  DIGIT OR NOT.
       char ch='8';
       
-      System.out.println(Character.isDigit(ch));
+      System.out.println(Character.isDigit(ch));      //output is TRUE
 
 
+    //character + string ==> string
+    char ch='a';
+    
+    String str=ch+"";
+    
+    System.out.println(str);  //a
       
       
       
