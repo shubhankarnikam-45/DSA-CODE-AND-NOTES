@@ -43,6 +43,9 @@ public class Main {
     String str=ch+"";
     
     System.out.println(str);  //a
+
+    //int array store the by default 0 value
+    //Integer array store the by default 'null' value.
       
       
       
