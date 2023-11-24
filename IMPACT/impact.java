@@ -46,6 +46,8 @@ public class Main {
 
     //int array store the by default 0 value
     //Integer array store the by default 'null' value.
+
+    //in arraylist by default null
       
       
       
