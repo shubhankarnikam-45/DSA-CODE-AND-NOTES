@@ -48,6 +48,10 @@ public class Main {
     //Integer array store the by default 'null' value.
 
     //in arraylist by default null
+
+    //how to fill array using inbuild method.
+    int arr[] =new int[5];  //{0,0,0,0,0} 
+    Arrays.fill(arr, -1);   //{-1, -1, -1, -1, -1}
       
       
       
